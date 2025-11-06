@@ -19,9 +19,9 @@ public class PlayerVisual : MonoBehaviour
 
     private void Update()
     {
-        animator.SetBool(IS_DOWN, Player.Instance.IsDown());
-        animator.SetBool(IS_UP, Player.Instance.IsUp());
-        animator.SetBool(IS_LEFT, Player.Instance.IsLeft());
-        animator.SetBool(IS_RIGHT, Player.Instance.IsRight());
+        animator.SetBool(IS_DOWN, Player.Instance.IsDown);
+        animator.SetBool(IS_UP, Player.Instance.IsUp);
+        animator.SetBool(IS_LEFT, Player.Instance.IsLeft);
+        animator.SetBool(IS_RIGHT, Player.Instance.IsRight);
     }
 }
