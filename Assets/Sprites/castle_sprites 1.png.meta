@@ -1,10 +1,7 @@
 fileFormatVersion: 2
-guid: 43136e88fb7c8a045a1c328372c590ca
+guid: e919ad8709137bc4db4e1228c13af214
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 3093181033299275886
-    second: homescreen_0
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -104,11 +101,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 800
-        height: 740
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 583
+        width: 319
+        height: 130
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -117,6 +114,94 @@ TextureImporter:
       bones: []
       spriteID: e6077cbe2cf2dea20800000000000000
       internalID: 3093181033299275886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_sprites 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 800
+        height: 740
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e7524c9b7a3994fbdaacfb90bad78b
+      internalID: 173102610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_sprites 1_1
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 572
+        width: 282
+        height: 139
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5c12c8ad08132419cff3b03af8c311
+      internalID: -1238165928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_sprites 1_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 406
+        width: 286
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab027e888225b834e8e2447a8fccc782
+      internalID: -143980908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_sprites 1_3
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 406
+        width: 345
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294439ba34fee514d8468503bdc0c4dc
+      internalID: -1356240413
       vertices: []
       indices: 
       edges: []
@@ -133,8 +218,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":1,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
+      castle_sprites 1_0: 173102610
+      castle_sprites 1_1: -1238165928
+      castle_sprites 1_2: -143980908
+      castle_sprites 1_3: -1356240413
       homescreen_0: 3093181033299275886
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

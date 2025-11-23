@@ -1,10 +1,7 @@
 fileFormatVersion: 2
-guid: 43136e88fb7c8a045a1c328372c590ca
+guid: a718559ed9f64d946bb7a59eef51e3d3
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 3093181033299275886
-    second: homescreen_0
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,10 +100,10 @@ TextureImporter:
       name: homescreen_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 800
-        height: 740
+        x: 1
+        y: 139
+        width: 8
+        height: 60
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,6 +114,28 @@ TextureImporter:
       bones: []
       spriteID: e6077cbe2cf2dea20800000000000000
       internalID: 3093181033299275886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 138
+        width: 12
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85b9684fb55d6146bd415dfce03424c
+      internalID: 448025956
       vertices: []
       indices: 
       edges: []
@@ -133,9 +152,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":1,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       homescreen_0: 3093181033299275886
+      items_0: 448025956
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

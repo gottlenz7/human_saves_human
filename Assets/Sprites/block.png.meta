@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 43136e88fb7c8a045a1c328372c590ca
+guid: 9ad39f21c6d8d4f42a9b392901710f33
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3093181033299275886
-    second: homescreen_0
+      213: -2003034531870274244
+    second: block_for_chest_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: homescreen_0
+      name: block_for_chest_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 800
-        height: 740
+        width: 315
+        height: 100
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6077cbe2cf2dea20800000000000000
-      internalID: 3093181033299275886
+      spriteID: c3d080fa4bac334e0800000000000000
+      internalID: -2003034531870274244
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: bc575ff0614f00d41892f7be72a6eb94
+    spriteID: d28fe675ada56674e8b09882094f06ec
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      homescreen_0: 3093181033299275886
+      block_for_chest_0: -2003034531870274244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

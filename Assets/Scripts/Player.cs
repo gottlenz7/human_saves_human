@@ -4,7 +4,7 @@ public class Player : MonoBehaviour
 {
     public static Player Instance { get; private set; }
 
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
     private float speed = 2f;
 
     private float minSpeed = 0.1f;
@@ -17,7 +17,16 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
         rb = GetComponent<Rigidbody2D>();
     }
 

@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 43136e88fb7c8a045a1c328372c590ca
+guid: 771b10007a079bc4d9577a8c02417b51
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3093181033299275886
-    second: homescreen_0
+      213: -2603574803588683553
+    second: light_for_chects_loc_0
+  - first:
+      213: -5514592295452064618
+    second: light_for_chects_loc_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: homescreen_0
+      name: light_for_chects_loc_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 800
-        height: 740
+        height: 640
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6077cbe2cf2dea20800000000000000
-      internalID: 3093181033299275886
+      spriteID: fd860fda28e3edbd0800000000000000
+      internalID: -2603574803588683553
       vertices: []
       indices: 
       edges: []
@@ -125,7 +128,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: bc575ff0614f00d41892f7be72a6eb94
+    spriteID: ee3c12c00c01cb94993bdbff1dea1292
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +136,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":800.0,"y":640.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      homescreen_0: 3093181033299275886
+      light_for_chects_loc_0: -2603574803588683553
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

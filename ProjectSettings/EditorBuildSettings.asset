@@ -5,9 +5,33 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/Scenes/start.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/start_loc.unity
+    guid: 462fdeab4afcfe94e93a9688de36a014
+  - enabled: 1
+    path: Assets/Scenes/chest_loc.unity
+    guid: c42e2ca08edd5e24e8227861cdfb6097
+  - enabled: 1
+    path: Assets/Scenes/forest_loc.unity
+    guid: 2df45a458b2a19a44aeafda1077ef811
+  - enabled: 1
+    path: Assets/Scenes/lake_loc.unity
+    guid: 366958cb25839054ea20a1e07528301a
+  - enabled: 1
+    path: Assets/Scenes/castle_loc.unity
+    guid: 8a427c9e4eff3ca418336df5fbb8a517
+  - enabled: 1
+    path: Assets/Scenes/castle_inside_loc.unity
+    guid: f7e1238ea29f365478b80ff43a6126d5
+  - enabled: 1
+    path: Assets/Scenes/boss_loc.unity
+    guid: fa41026d67292ca4fa015357c438c3e3
+  - enabled: 1
+    path: Assets/Scenes/tower_loc.unity
+    guid: 09b52e1392a59e84bbe1fac998beaba0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -1,8 +1,12 @@
+using UnityEditor.ShortcutManagement;
 using UnityEngine;
 using UnityEngine.Rendering;
 
 public class PlayerVisual : MonoBehaviour 
 {
+    public static PlayerVisual Instance { get; private set; }
+    public bool isMan = true;
+
     private Animator animator;
     private SpriteRenderer spriteRenderer;
 
@@ -13,6 +17,8 @@ public class PlayerVisual : MonoBehaviour
 
     private void Awake()
     {
+        Instance = this;
+
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
