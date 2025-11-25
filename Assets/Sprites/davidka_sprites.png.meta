@@ -1,0 +1,2007 @@
+fileFormatVersion: 2
+guid: a590131cfdee0d94eaf7a016cd83d30b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 75
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: davidka_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1905
+        width: 70
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2face3b56b777fa41bbf2429031037dd
+      internalID: -1345085975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1905
+        width: 70
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1e83f61593dbb4689d470c474501ef
+      internalID: 1810709090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1809
+        width: 70
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd563b1027184c479b1950606682777
+      internalID: 1195560744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1809
+        width: 70
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1caf4a8258b7a4ba77a567d7d4b808
+      internalID: -1916428836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1809
+        width: 70
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e643147e786c72d418b2ecc745c614dc
+      internalID: 1325368952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1809
+        width: 70
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994755e031295d24c9647303b9f34c53
+      internalID: -83791551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1713
+        width: 70
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7b84cb3afcf8e49b66a466583b9847
+      internalID: -1579709328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1713
+        width: 70
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8263d21addd09c846824406ad65c3612
+      internalID: 430672646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1713
+        width: 70
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c1656c01d83244bac9d668428dae8b
+      internalID: -710128363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1713
+        width: 70
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b4984af67bde04e8c7f40d2e03af10
+      internalID: 2040987694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1618
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b95cf18554e3940b6f6a7d5c944a27
+      internalID: -1437328847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1617
+        width: 66
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cafcb5adb7df54bb9d0cabea93df52
+      internalID: 569168263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1617
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009bdad3f74348345b7d0897f6ad3f72
+      internalID: 1573974241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1617
+        width: 66
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be616ba8726a494496b6f0edc2422de
+      internalID: 1119794204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1521
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94751d77a5437442886d7e35bdf09e6
+      internalID: 1056638044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_15
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1521
+        width: 66
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cea374283116d40b5a53efa5e4d84c
+      internalID: -1348627817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1521
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a108a2beb0650a8468dc6980ab7f7b84
+      internalID: -993127523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_17
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1521
+        width: 66
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb4ac661e8560c409fef1878c3e998f
+      internalID: 888466979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1425
+        width: 81
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b215ca73d012dc43a14cba79d3b1e71
+      internalID: 1146410317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1450
+        width: 9
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafb4d69c26b9de4bb70f2ca957017a6
+      internalID: -1348223179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1458
+        width: 4
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e861a9528b773c4089cc4e257a41740
+      internalID: -1359929523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1425
+        width: 75
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acdaa3e4f4df4d448c6f806defa5403
+      internalID: -832395335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1425
+        width: 70
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb575919c56e86b42af12ccb04c0868b
+      internalID: 918635597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1425
+        width: 70
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3caf6883d7e919c44acf679133a38487
+      internalID: -1139376819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1329
+        width: 79
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac7703fdba67fe43bf5364f148c30b5
+      internalID: -2075172645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_25
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1329
+        width: 74
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604d807645789cb47a8858f9c1ddec71
+      internalID: 953002221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_26
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1368
+        width: 4
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146ccea4571c59e449c736fa9e09ca5f
+      internalID: -1727335243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_27
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1359
+        width: 8
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa39c60c4411234a8646dd139b7db7e
+      internalID: -748045933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1329
+        width: 69
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4399806ce894371438396f0368faed52
+      internalID: 635793451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_29
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1329
+        width: 69
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bc48d454fae894288b48beea185e39
+      internalID: 486092501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_30
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1233
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000000ce0c4590948ba7ce2c5c05fad9
+      internalID: 587675101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1233
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc7b885630202349a12d525bba05c79
+      internalID: -581056952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_32
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1233
+        width: 66
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de61d08fe0d328843b83affc218692b4
+      internalID: -378149670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_33
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1233
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60853590f07143449ace8eec3fb50fd7
+      internalID: -1766724889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_34
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1256
+        width: 8
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7ca79ae7c1c3c43995702abd4b692e
+      internalID: 456327228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_35
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1250
+        width: 12
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cef95e36cac42488e4ddda1a6c0ab9
+      internalID: 17155349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_36
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1137
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2e1d4c3caa94e40b608c412c9dccec
+      internalID: -1671514207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_37
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1137
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd42968af2632742b3d3220b23669e5
+      internalID: -75244095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_38
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1137
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9d42625f253284a9abab9f0d57a704
+      internalID: -1937060670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_39
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1154
+        width: 12
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c475fcb5b07a5e248a1ba80dae486ca2
+      internalID: 1005827981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1160
+        width: 8
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4f943f0aaf62c4781908a295611517
+      internalID: -99865518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1137
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb817e0cfb57a31468114895a3eb28b2
+      internalID: -275065036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 985
+        width: 70
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48e712a163ca5843be8c688ebb4a289
+      internalID: -958662111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_43
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 985
+        width: 70
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc30157c5a65c64cad210c30e6c2334
+      internalID: -1592305039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_44
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 985
+        width: 70
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a8eb72b40559345bbc4d0de60180fd
+      internalID: 947561874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_45
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 985
+        width: 70
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a40eb162463eb4ab004e682fa467c6
+      internalID: -276214065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 889
+        width: 70
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc5e8343d400544cab98208311f64ed
+      internalID: 1334760791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_47
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 889
+        width: 70
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11ef0382e19100459bd8b5807f2e3b2
+      internalID: -2129121416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_48
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 889
+        width: 70
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c083b4244e0d148a7007840e30e98e
+      internalID: 1506422584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_49
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 889
+        width: 70
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d955cc86b1f864a8157c4ce5383d12
+      internalID: 801151159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_50
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 793
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f293607718b1a14f865f72f649cff0e
+      internalID: 1223864129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_51
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 793
+        width: 66
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0f6d4fc09296842960495deb205905
+      internalID: -351438646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_52
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 793
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b522c0fd098014459228f9050bec988
+      internalID: 2087436348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_53
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 793
+        width: 66
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65d3b7557111f844af7c29a3dcc0968
+      internalID: 1306895713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_54
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 697
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c5c96e206b6604b87724fd42b734c6
+      internalID: 116469142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_55
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 697
+        width: 66
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3b80511be559c43a62200b3e7653ea
+      internalID: -495838742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_56
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 697
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d121e1b2dfd07eb41b61b5e4a85bd3ee
+      internalID: 629870795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_57
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 697
+        width: 66
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4e761914148aa4fbff0e57e8b639e5
+      internalID: 1844027569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_58
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 601
+        width: 81
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3330499a552bd4642bc274b0f9faacbc
+      internalID: -2146612649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_59
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 626
+        width: 9
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51e3a2cb26a8104c9cd4e2b5a748f4c
+      internalID: 1015281425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_60
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 634
+        width: 4
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb645b29f6bdea47a036a6842d8f6a7
+      internalID: 1279483486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_61
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 601
+        width: 75
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1a0b9e0520a7c438cc5189f658a0a6
+      internalID: -1266662079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_62
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 601
+        width: 70
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e1f8c593708a546b9850765848181d
+      internalID: 403533144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_63
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 601
+        width: 70
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e701ae8deadfa4ca5f306fb631bef2
+      internalID: 1152260654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_64
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 505
+        width: 79
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7f67838d8536946bff970cdc17c7f9
+      internalID: 1021272934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_65
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 505
+        width: 74
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89772d57d44d0104d8a091a728e30cda
+      internalID: -903164466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_66
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 544
+        width: 4
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca8abec249a5b742aa511f06d127366
+      internalID: 987228438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_67
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 535
+        width: 8
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b510a2969fc42f64db151e3dc82e5c80
+      internalID: -1696532741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_68
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 505
+        width: 69
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb90b2bcddf888b42821ffcd9698a968
+      internalID: 40113133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_69
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 505
+        width: 69
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f64283b6c08fdc489db9d8c6687fb6a
+      internalID: 331376629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_70
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 409
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b115b32b7a4dd7a45b0279a3d0cebee2
+      internalID: 714615876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_71
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 409
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4620c34cde2fe1439d18ed7a28899b2
+      internalID: 535825851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_72
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 409
+        width: 66
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb74fe3e66334984abb7dbd203d2bf62
+      internalID: 1372945736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_73
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 409
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71421ee4d0a16949bb116307cac5bb8
+      internalID: -911818087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_74
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 432
+        width: 8
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b218d4a411498e4419ebff070f195c0e
+      internalID: 912819643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_75
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 426
+        width: 12
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb9708d320697946ac3d6d60efd8c7f
+      internalID: -2376078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_76
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 313
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e5b23a01637bd46b02fa35b8ea4d22
+      internalID: 1658695206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_77
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 313
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b02c7fcd7f0844499e0517d5ac3cea
+      internalID: -2013071027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_78
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 313
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7024cb3d02656b042aa55b6944678025
+      internalID: -762662339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_79
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 330
+        width: 12
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73160a2a02ca32448bfaddf7460528c2
+      internalID: 1171348111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_80
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 336
+        width: 8
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab2a75c05cfa9b4298fb2a4cd5485bb
+      internalID: 1556440498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davidka_sprites_81
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 313
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37655805ac36b074b8afb39b6b1d5a12
+      internalID: -250366212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7224ccda7c4992e47a069a54261504c3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":1,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      - key: SpriteEditor.SliceOnImport
+        value: False
+    nameFileIdTable:
+      davidka_sprites_0: -1345085975
+      davidka_sprites_1: 1810709090
+      davidka_sprites_10: -1437328847
+      davidka_sprites_11: 569168263
+      davidka_sprites_12: 1573974241
+      davidka_sprites_13: 1119794204
+      davidka_sprites_14: 1056638044
+      davidka_sprites_15: -1348627817
+      davidka_sprites_16: -993127523
+      davidka_sprites_17: 888466979
+      davidka_sprites_18: 1146410317
+      davidka_sprites_19: -1348223179
+      davidka_sprites_2: 1195560744
+      davidka_sprites_20: -1359929523
+      davidka_sprites_21: -832395335
+      davidka_sprites_22: 918635597
+      davidka_sprites_23: -1139376819
+      davidka_sprites_24: -2075172645
+      davidka_sprites_25: 953002221
+      davidka_sprites_26: -1727335243
+      davidka_sprites_27: -748045933
+      davidka_sprites_28: 635793451
+      davidka_sprites_29: 486092501
+      davidka_sprites_3: -1916428836
+      davidka_sprites_30: 587675101
+      davidka_sprites_31: -581056952
+      davidka_sprites_32: -378149670
+      davidka_sprites_33: -1766724889
+      davidka_sprites_34: 456327228
+      davidka_sprites_35: 17155349
+      davidka_sprites_36: -1671514207
+      davidka_sprites_37: -75244095
+      davidka_sprites_38: -1937060670
+      davidka_sprites_39: 1005827981
+      davidka_sprites_4: 1325368952
+      davidka_sprites_40: -99865518
+      davidka_sprites_41: -275065036
+      davidka_sprites_42: -958662111
+      davidka_sprites_43: -1592305039
+      davidka_sprites_44: 947561874
+      davidka_sprites_45: -276214065
+      davidka_sprites_46: 1334760791
+      davidka_sprites_47: -2129121416
+      davidka_sprites_48: 1506422584
+      davidka_sprites_49: 801151159
+      davidka_sprites_5: -83791551
+      davidka_sprites_50: 1223864129
+      davidka_sprites_51: -351438646
+      davidka_sprites_52: 2087436348
+      davidka_sprites_53: 1306895713
+      davidka_sprites_54: 116469142
+      davidka_sprites_55: -495838742
+      davidka_sprites_56: 629870795
+      davidka_sprites_57: 1844027569
+      davidka_sprites_58: -2146612649
+      davidka_sprites_59: 1015281425
+      davidka_sprites_6: -1579709328
+      davidka_sprites_60: 1279483486
+      davidka_sprites_61: -1266662079
+      davidka_sprites_62: 403533144
+      davidka_sprites_63: 1152260654
+      davidka_sprites_64: 1021272934
+      davidka_sprites_65: -903164466
+      davidka_sprites_66: 987228438
+      davidka_sprites_67: -1696532741
+      davidka_sprites_68: 40113133
+      davidka_sprites_69: 331376629
+      davidka_sprites_7: 430672646
+      davidka_sprites_70: 714615876
+      davidka_sprites_71: 535825851
+      davidka_sprites_72: 1372945736
+      davidka_sprites_73: -911818087
+      davidka_sprites_74: 912819643
+      davidka_sprites_75: -2376078
+      davidka_sprites_76: 1658695206
+      davidka_sprites_77: -2013071027
+      davidka_sprites_78: -762662339
+      davidka_sprites_79: 1171348111
+      davidka_sprites_8: -710128363
+      davidka_sprites_80: 1556440498
+      davidka_sprites_81: -250366212
+      davidka_sprites_9: 2040987694
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
