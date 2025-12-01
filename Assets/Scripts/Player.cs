@@ -5,8 +5,8 @@ public class Player : MonoBehaviour
     public static Player Instance { get; private set; }
 
     public Rigidbody2D rb;
-    private float speed = 2f;
 
+    private float speed = 2f;
     private float minSpeed = 0.1f;
 
     private Vector2 lastDirection = Vector2.down;
@@ -32,15 +32,20 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        HandleMoment();
+        HandleMovement();
     }
 
-    private void HandleMoment()
+    private void HandleMovement()
     {
-        Vector2 inputVector = GameInput.Instance.GetMomentVector();
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
+
+        Vector2 inputVector = new Vector2(horizontal, vertical);
         inputVector = inputVector.normalized;
+
         rb.MovePosition(rb.position + inputVector * (Time.fixedDeltaTime * speed));
 
-        if (inputVector.magnitude > minSpeed) lastDirection = inputVector;
+        if (inputVector.magnitude > minSpeed)
+            lastDirection = inputVector;
     }
 }

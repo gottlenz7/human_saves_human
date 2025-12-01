@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/start.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/homescreen.unity
+    guid: e0a96254a7a6c554c8edfdb3048670b9
+  - enabled: 1
+    path: Assets/Scenes/history_and_control.unity
+    guid: 9c7c8ac5dcdd13e429f6b3758ccb5a0d
+  - enabled: 1
+    path: Assets/Scenes/select_character.unity
+    guid: 45b567e5693af4b429eb534fb88c857b
+  - enabled: 1
     path: Assets/Scenes/start_loc.unity
     guid: 462fdeab4afcfe94e93a9688de36a014
   - enabled: 1
