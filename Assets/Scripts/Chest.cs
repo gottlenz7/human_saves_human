@@ -8,7 +8,7 @@ public class Chest : MonoBehaviour
 
     private SpriteRenderer chestSpriteRenderer;
     private bool isOpen = false, isPlayerNear = false;
-    
+
     private void Start()
     {
         chestSpriteRenderer = GetComponent<SpriteRenderer>();
@@ -26,7 +26,7 @@ public class Chest : MonoBehaviour
             else
                 CloseChest();
         }
-            
+        Debug.Log(PlayerVisual.Instance.isMan);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -46,6 +46,8 @@ public class Chest : MonoBehaviour
         chestSpriteRenderer.sprite = openedChest;
         isOpen = true;
         getItem.enabled = true;
+
+        Debug.Log(PlayerVisual.Instance.isMan);
 
         if (PlayerVisual.Instance.isMan)
         {

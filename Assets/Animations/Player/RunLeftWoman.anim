@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RunDown
+  m_Name: RunLeftWoman
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,13 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 1195560744, guid: a590131cfdee0d94eaf7a016cd83d30b, type: 3}
+      value: {fileID: 1231915905, guid: b6912c3118cebe54cb481ba2b278c180, type: 3}
     - time: 0.25
-      value: {fileID: -1916428836, guid: a590131cfdee0d94eaf7a016cd83d30b, type: 3}
+      value: {fileID: 42494460, guid: b6912c3118cebe54cb481ba2b278c180, type: 3}
     - time: 0.5
-      value: {fileID: 1325368952, guid: a590131cfdee0d94eaf7a016cd83d30b, type: 3}
+      value: {fileID: -1004432862, guid: b6912c3118cebe54cb481ba2b278c180, type: 3}
     - time: 0.75
-      value: {fileID: -83791551, guid: a590131cfdee0d94eaf7a016cd83d30b, type: 3}
+      value: {fileID: -277726237, guid: b6912c3118cebe54cb481ba2b278c180, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,10 +50,10 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 1195560744, guid: a590131cfdee0d94eaf7a016cd83d30b, type: 3}
-    - {fileID: -1916428836, guid: a590131cfdee0d94eaf7a016cd83d30b, type: 3}
-    - {fileID: 1325368952, guid: a590131cfdee0d94eaf7a016cd83d30b, type: 3}
-    - {fileID: -83791551, guid: a590131cfdee0d94eaf7a016cd83d30b, type: 3}
+    - {fileID: 1231915905, guid: b6912c3118cebe54cb481ba2b278c180, type: 3}
+    - {fileID: 42494460, guid: b6912c3118cebe54cb481ba2b278c180, type: 3}
+    - {fileID: -1004432862, guid: b6912c3118cebe54cb481ba2b278c180, type: 3}
+    - {fileID: -277726237, guid: b6912c3118cebe54cb481ba2b278c180, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
