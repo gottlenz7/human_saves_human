@@ -5,10 +5,8 @@ using UnityEngine.Rendering;
 public class PlayerVisual : MonoBehaviour 
 {
     public static PlayerVisual Instance { get; private set; }
-    public bool isMan = true;
-
-    private Animator animator;
-    private SpriteRenderer spriteRenderer;
+    public bool isMan = false;
+    public Animator animator;
 
     private const string IS_DOWN = "IsDown";
     private const string IS_UP = "IsUp";
@@ -20,7 +18,6 @@ public class PlayerVisual : MonoBehaviour
         Instance = this;
 
         animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
