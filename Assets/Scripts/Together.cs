@@ -11,8 +11,8 @@ public class Together : MonoBehaviour
         together = GetComponent<SpriteRenderer>();
 
         if (PlayerVisual.Instance.isMan)
-            together.sprite = sprite2;
-        else
             together.sprite = sprite1;
+        else
+            together.sprite = sprite2;
     }
 }

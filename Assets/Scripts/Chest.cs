@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Chest : MonoBehaviour 
+public class Chest : MonoBehaviour
 {
     public Sprite openedChest, closedChest;
     public SpriteRenderer getItem, brush, flute;
@@ -58,6 +58,9 @@ public class Chest : MonoBehaviour
         }
 
         Item.Instance.ShowItem(isFlute);
+
+        PlayerVisual.Instance.haveWeapon = true;
+        PlayerVisual.Instance.animator.SetBool("haveWeapon", PlayerVisual.Instance.haveWeapon);
     }
 
     private void CloseChest()

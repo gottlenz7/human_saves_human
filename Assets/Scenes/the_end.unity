@@ -762,7 +762,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.7, y: 2.45}
+  m_Size: {x: 3.7, y: 2.46}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -1793,7 +1793,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90dd2f7bd6d6b954dab61f5add4b22a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerVisual
-  isMan: 0
+  isMan: 1
+  haveWeapon: 0
   animator: {fileID: 0}
 --- !u!1 &1741554403
 GameObject:

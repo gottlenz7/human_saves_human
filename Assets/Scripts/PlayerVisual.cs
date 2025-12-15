@@ -5,7 +5,7 @@ using UnityEngine.Rendering;
 public class PlayerVisual : MonoBehaviour 
 {
     public static PlayerVisual Instance { get; private set; }
-    public bool isMan = false;
+    public bool isMan = false, haveWeapon = false;
     public Animator animator;
 
     private const string IS_DOWN = "IsDown";
@@ -15,7 +15,15 @@ public class PlayerVisual : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
 
         animator = GetComponent<Animator>();
     }
