@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Chest : MonoBehaviour 
+public class Chest : MonoBehaviour
 {
     public Sprite openedChest, closedChest;
     public SpriteRenderer getItem, brush, flute;
@@ -26,7 +26,6 @@ public class Chest : MonoBehaviour
             else
                 CloseChest();
         }
-        Debug.Log(PlayerVisual.Instance.isMan);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -47,8 +46,6 @@ public class Chest : MonoBehaviour
         isOpen = true;
         getItem.enabled = true;
 
-        Debug.Log(PlayerVisual.Instance.isMan);
-
         if (PlayerVisual.Instance.isMan)
         {
             flute.enabled = true;
@@ -61,6 +58,9 @@ public class Chest : MonoBehaviour
         }
 
         Item.Instance.ShowItem(isFlute);
+
+        PlayerVisual.Instance.haveWeapon = true;
+        PlayerVisual.Instance.animator.SetBool("haveWeapon", PlayerVisual.Instance.haveWeapon);
     }
 
     private void CloseChest()

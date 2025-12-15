@@ -40,7 +40,6 @@ public class SelectCharacter : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
             PlayerVisual.Instance.animator.SetBool("isMan", PlayerVisual.Instance.isMan);
-            Debug.Log(PlayerVisual.Instance.isMan);
         }
     }
 
