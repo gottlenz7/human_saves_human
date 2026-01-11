@@ -1894,6 +1894,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 8.137489, y: 0.9049065}
   m_EdgeRadius: 0
+--- !u!1 &1186758103 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7089674122267242740, guid: 77356d283daa9d54ead16eb06132d1e0, type: 3}
+  m_PrefabInstance: {fileID: 4672624042418171931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1186758104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186758103}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52f8b8466dc1454fb0d51bbdbc0d7ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewEmptyCSharpScript
+  startingState: 0
+  roamingDistanceMax: 3
+  roamimgDistanceMin: 1
+  roamimgTimerMax: 2
+  isChasingEnemy: 1
+  chasingDistance: 4
+  chasingSpeedMultiplier: 2
+  isAttackingEnemy: 1
+  attackingDistance: 2
+  attackRate: 2
 --- !u!1 &1236498051
 GameObject:
   m_ObjectHideFlags: 0
@@ -2895,7 +2922,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7089674122267242740, guid: 77356d283daa9d54ead16eb06132d1e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1186758104}
   m_SourcePrefab: {fileID: 100100000, guid: 77356d283daa9d54ead16eb06132d1e0, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
