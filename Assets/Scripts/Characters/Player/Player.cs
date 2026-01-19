@@ -10,10 +10,10 @@ public class Player : MonoBehaviour
     private float minSpeed = 0.1f;
 
     private Vector2 lastDirection = Vector2.down;
+    public bool IsRight => lastDirection.x > 0 && Input.GetKey(KeyCode.RightArrow);
+    public bool IsLeft => lastDirection.x < 0 && Input.GetKey(KeyCode.LeftArrow);
     public bool IsDown => lastDirection.y < 0 && Input.GetKey(KeyCode.DownArrow);
     public bool IsUp => lastDirection.y > 0 && Input.GetKey(KeyCode.UpArrow);
-    public bool IsLeft => lastDirection.x < 0 && Input.GetKey(KeyCode.LeftArrow);
-    public bool IsRight => lastDirection.x > 0 && Input.GetKey(KeyCode.RightArrow);
 
     private void Awake()
     {

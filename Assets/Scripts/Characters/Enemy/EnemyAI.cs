@@ -1,11 +1,13 @@
 using System;
 using UnityEngine;
 using UnityEngine.AI;
+using Move;
 
 public class EnemyAI : MonoBehaviour
 {
-    public event EventHandler OnEnenmyAttack;
+    public event EventHandler OnEnemyAttack;
     public State startState;
+    private MovableSprite movableSprite;
 
     private float roamingDistanceMax = 3f, roamingDistanceMin = 1f, roamingTimerMax = 3f;
     private float roamingTime, idleTime;
@@ -14,7 +16,6 @@ public class EnemyAI : MonoBehaviour
     private State currentState;
     private NavMeshAgent navMeshAgent;
 
-    private bool isRight, isDown, isUp, isLeft;
     private bool reachTheGoal;
     private Animator animator;
 
@@ -41,6 +42,7 @@ public class EnemyAI : MonoBehaviour
     private void Start()
     {
         animator = GetComponentInChildren<Animator>();
+        movableSprite = new MovableSprite();
     }
     private void Awake()
     {
@@ -99,10 +101,7 @@ public class EnemyAI : MonoBehaviour
 
     private void IdleTarget()
     {
-        animator.SetBool("isDown", false);
-        animator.SetBool("isRight", false);
-        animator.SetBool("isLeft", false);
-        animator.SetBool("isUp", false);
+        movableSprite.SetAnimator(animator);
     }
 
     private void Roaming()
@@ -122,7 +121,7 @@ public class EnemyAI : MonoBehaviour
 
         if (Time.time > nextAttackTime)
         {
-            OnEnenmyAttack?.Invoke(this, EventArgs.Empty);
+            OnEnemyAttack?.Invoke(this, EventArgs.Empty);
 
             nextAttackTime = Time.time + attackRate;
         }
@@ -180,11 +179,11 @@ public class EnemyAI : MonoBehaviour
         {
             if (IsRunning)
             {
-                ChangeFacingDirection(lastPosition, transform.position);
+                ChangeFacingDirection(lastPosition, transform.position, reachTheGoal);
             }
             else if (currentState == State.Attacking)
             {
-                ChangeFacingDirection(transform.position, Player.Instance.transform.position);
+                ChangeFacingDirection(transform.position, Player.Instance.transform.position, reachTheGoal);
             }
 
             lastPosition = transform.position;
@@ -204,41 +203,17 @@ public class EnemyAI : MonoBehaviour
 
     private void LeftRight(Vector3 sourcePosition, Vector3 targetPosition)
     {
-        if (sourcePosition.x > targetPosition.x)
-        {
-            isRight = false;
-            isLeft = true;
-            isDown = false;
-            isUp = false;
-        }
-        else if (sourcePosition.x < targetPosition.x)
-        {
-            isRight = true;
-            isLeft = false;
-            isDown = false;
-            isUp = false;
-        }
+        if (sourcePosition.x > targetPosition.x) movableSprite.SetDirection(false, true, false, false);
+        else if (sourcePosition.x < targetPosition.x) movableSprite.SetDirection(true, false, false, false);
     }
 
     private void UpDown(Vector3 sourcePosition, Vector3 targetPosition)
     {
-        if (sourcePosition.y > targetPosition.y)
-        {
-            isRight = false;
-            isLeft = false;
-            isDown = true;
-            isUp = false;
-        }
-        else if (sourcePosition.y < targetPosition.y)
-        {
-            isRight = false;
-            isLeft = false;
-            isDown = false;
-            isUp = true;
-        }
+        if (sourcePosition.y > targetPosition.y) movableSprite.SetDirection(false, false, true, false);
+        else if (sourcePosition.y < targetPosition.y) movableSprite.SetDirection(false, false, false, true);
     }
 
-    private void ChangeFacingDirection(Vector3 sourcePosition, Vector3 targetPosition)
+    public void ChangeFacingDirection(Vector3 sourcePosition, Vector3 targetPosition, bool reachTheGoal)
     {
         if (!reachTheGoal)
         {
@@ -255,9 +230,6 @@ public class EnemyAI : MonoBehaviour
             reachTheGoal = true;
         }
 
-        animator.SetBool("isDown", isDown);
-        animator.SetBool("isRight", isRight);
-        animator.SetBool("isLeft", isLeft);
-        animator.SetBool("isUp", isUp);
+        movableSprite.SetAnimator(animator);
     }
 }

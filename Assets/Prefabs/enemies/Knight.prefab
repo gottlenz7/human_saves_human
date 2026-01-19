@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 5497286302997140137}
   - component: {fileID: 2766592093828772062}
   - component: {fileID: 8143363068132187011}
-  - component: {fileID: 7184628654877823295}
+  - component: {fileID: 3884010267607274093}
   m_Layer: 0
   m_Name: Knight
   m_TagString: Untagged
@@ -235,7 +235,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &7184628654877823295
+--- !u!114 &3884010267607274093
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
