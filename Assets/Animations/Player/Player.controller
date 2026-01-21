@@ -9,16 +9,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -46,16 +46,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -113,16 +113,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -150,16 +150,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -217,16 +217,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -254,16 +254,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -291,16 +291,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -328,16 +328,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -365,16 +365,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -402,16 +402,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -439,16 +439,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -476,16 +476,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -513,16 +513,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -610,16 +610,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -647,16 +647,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -709,16 +709,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -776,16 +776,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -813,16 +813,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -850,16 +850,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -887,16 +887,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -924,16 +924,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -986,16 +986,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -1023,16 +1023,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -1060,16 +1060,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -1097,16 +1097,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -1134,16 +1134,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -1171,16 +1171,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -1208,16 +1208,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -1245,16 +1245,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -1282,16 +1282,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -1349,16 +1349,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -1411,16 +1411,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -1448,16 +1448,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -1567,16 +1567,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -1604,16 +1604,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -1641,16 +1641,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -1678,16 +1678,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -1715,16 +1715,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -1752,16 +1752,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -1789,16 +1789,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -1826,16 +1826,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -1863,16 +1863,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -1900,16 +1900,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -1937,16 +1937,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -1974,16 +1974,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -2011,25 +2011,25 @@ AnimatorController:
   m_Name: Player
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: IsUp
+  - m_Name: isUp
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: IsDown
+  - m_Name: isDown
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: IsLeft
+  - m_Name: isLeft
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: IsRight
+  - m_Name: isRight
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -2069,16 +2069,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -2106,16 +2106,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -2143,16 +2143,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -2210,16 +2210,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -2247,16 +2247,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -2284,16 +2284,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -2411,16 +2411,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -2473,16 +2473,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -2510,16 +2510,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -2547,16 +2547,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -2584,16 +2584,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -2621,16 +2621,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -2688,16 +2688,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -2725,16 +2725,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -2762,16 +2762,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -2799,16 +2799,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -2836,16 +2836,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -2901,16 +2901,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -2968,16 +2968,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -3035,16 +3035,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -3104,16 +3104,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -3141,16 +3141,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -3178,16 +3178,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -3215,16 +3215,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -3344,16 +3344,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -3381,16 +3381,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -3418,16 +3418,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -3455,16 +3455,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -3492,16 +3492,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -3529,16 +3529,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isMan
@@ -3566,16 +3566,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -3658,16 +3658,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -3720,16 +3720,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -3787,16 +3787,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
@@ -3854,16 +3854,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsLeft
+    m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsUp
+    m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsDown
+    m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRight
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isMan
