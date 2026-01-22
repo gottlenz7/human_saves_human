@@ -1,19 +1,21 @@
 using System;
+using System.Collections;
+using Move;
 using UnityEngine;
 using UnityEngine.AI;
-using Move;
 
-public class EnemyAI : MonoBehaviour
+public class EnemyAI : Enemy
 {
     public event EventHandler OnEnemyAttack;
     public State startState;
+
     private MovableSprite movableSprite;
 
     private float roamingDistanceMax = 3f, roamingDistanceMin = 1f, roamingTimerMax = 3f;
     private float roamingTime, idleTime;
     private Vector3 roamPosition, startPosition;
 
-    private State currentState;
+    public State currentState;
     private NavMeshAgent navMeshAgent;
 
     private bool reachTheGoal;
@@ -43,7 +45,11 @@ public class EnemyAI : MonoBehaviour
     {
         animator = GetComponentInChildren<Animator>();
         movableSprite = new MovableSprite();
+
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        originalColor = spriteRenderer.color;
     }
+
     private void Awake()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
@@ -57,6 +63,9 @@ public class EnemyAI : MonoBehaviour
     {
         StateHandler();
         MovementDirectionHandler();
+
+        if (isHitting) StartCoroutine(ChangeColor());
+        if (hearts < 0f) Destroy(gameObject);
     }
 
     private void StateHandler()
@@ -118,6 +127,7 @@ public class EnemyAI : MonoBehaviour
     private void AttackingTarget()
     {
         animator.SetBool("Attack", true);
+        StartCoroutine(Hit());
 
         if (Time.time > nextAttackTime)
         {
@@ -215,7 +225,7 @@ public class EnemyAI : MonoBehaviour
         else if (sourcePosition.y < targetPosition.y) movableSprite.SetDirection(false, false, false, true);
     }
 
-    public void ChangeFacingDirection(Vector3 sourcePosition, Vector3 targetPosition)
+    private void ChangeFacingDirection(Vector3 sourcePosition, Vector3 targetPosition)
     {
         if (UnityEngine.Random.Range(0, 2) == 0)
         {

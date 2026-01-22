@@ -135,8 +135,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
   startState: 1
+  hearts: 2
+  damage: 1
+  isHitting: 0
+  currentState: 0
   isChasingEnemy: 1
   isAttackingEnemy: 1
+  hasDamage: 0
 --- !u!1 &8297895398680796185
 GameObject:
   m_ObjectHideFlags: 0

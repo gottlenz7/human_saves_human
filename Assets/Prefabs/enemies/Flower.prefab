@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7356609614519431003}
   - component: {fileID: 5323773944456049681}
   - component: {fileID: 9110036347189669099}
+  - component: {fileID: 2537557924780139312}
   m_Layer: 0
   m_Name: Flower
   m_TagString: Untagged
@@ -98,6 +99,24 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0028236378, y: 0.11303346}
   m_Size: {x: 0.36752373, y: 0.23782575}
   m_Direction: 1
+--- !u!114 &2537557924780139312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544026778185763581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60656911568045d45a395782e05009d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyFlower
+  hearts: 0.5
+  damage: 0.5
+  isHitting: 0
+  spriteRenderer: {fileID: 0}
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
+  hasDamage: 0
 --- !u!1 &2759203915777861974
 GameObject:
   m_ObjectHideFlags: 0
