@@ -177,13 +177,15 @@ public class EnemyAI : MonoBehaviour
     {
         if (Time.time > nextCheckDirectionTime)
         {
-            if (IsRunning)
+            if (IsRunning && !reachTheGoal)
             {
-                ChangeFacingDirection(lastPosition, transform.position, reachTheGoal);
+                ChangeFacingDirection(lastPosition, transform.position);
+                reachTheGoal = true;
             }
             else if (currentState == State.Attacking)
             {
-                ChangeFacingDirection(transform.position, Player.Instance.transform.position, reachTheGoal);
+                ChangeFacingDirection(transform.position, Player.Instance.transform.position);
+                reachTheGoal = true;
             }
 
             lastPosition = transform.position;
@@ -213,21 +215,17 @@ public class EnemyAI : MonoBehaviour
         else if (sourcePosition.y < targetPosition.y) movableSprite.SetDirection(false, false, false, true);
     }
 
-    public void ChangeFacingDirection(Vector3 sourcePosition, Vector3 targetPosition, bool reachTheGoal)
+    public void ChangeFacingDirection(Vector3 sourcePosition, Vector3 targetPosition)
     {
-        if (!reachTheGoal)
+        if (UnityEngine.Random.Range(0, 2) == 0)
         {
-            if (UnityEngine.Random.Range(0, 2) == 0)
-            {
-                LeftRight(sourcePosition, targetPosition);
-                UpDown(sourcePosition, targetPosition);
-            }
-            else
-            {
-                UpDown(sourcePosition, targetPosition);
-                LeftRight(sourcePosition, targetPosition);
-            }
-            reachTheGoal = true;
+            LeftRight(sourcePosition, targetPosition);
+            UpDown(sourcePosition, targetPosition);
+        }
+        else
+        {
+            UpDown(sourcePosition, targetPosition);
+            LeftRight(sourcePosition, targetPosition);
         }
 
         movableSprite.SetAnimator(animator);

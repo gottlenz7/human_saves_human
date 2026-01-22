@@ -161,7 +161,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 100
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -247,6 +247,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6476fdadba96aea45bb4a0108fcf97e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
-  startState: 0
+  startState: 1
   isChasingEnemy: 1
   isAttackingEnemy: 1
