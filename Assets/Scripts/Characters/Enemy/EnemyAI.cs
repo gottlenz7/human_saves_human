@@ -1,8 +1,8 @@
 using System;
-using System.Collections;
 using Move;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class EnemyAI : Enemy
 {
@@ -65,7 +65,12 @@ public class EnemyAI : Enemy
         MovementDirectionHandler();
 
         if (isHitting) StartCoroutine(ChangeColor());
-        if (hearts < 0f) Destroy(gameObject);
+        if (hearts <= 0f)
+        {
+            EnemyManager.Instance.LoseEnemy();
+            Destroy(gameObject);
+        }
+        StartCoroutine(Hit());
     }
 
     private void StateHandler()

@@ -43,6 +43,7 @@ public class PlayerVisual : MonoBehaviour
 
         AttackAnimation();
         if (isHitting) StartCoroutine(ChangeColor());
+        StartCoroutine(Eat());
 
         //if (hearts <= 0f)
         //{
@@ -56,7 +57,7 @@ public class PlayerVisual : MonoBehaviour
 
     private void AttackAnimation()
     {
-        if (Input.GetKey(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             StartCoroutine(AttackRoutine());
         }
@@ -78,19 +79,33 @@ public class PlayerVisual : MonoBehaviour
         }
     }
 
+    IEnumerator Eat()
+    {
+        if (Input.GetKeyDown(KeyCode.C) && EnemyManager.Instance.applesCount > 0 && hearts < 3)
+        {
+            hearts += 1f;
+            hearts = Mathf.Min(hearts, 3);
+
+            EnemyManager.Instance.LoseApples();
+
+            yield return new WaitForSeconds(1f);
+        }
+    }
+
     IEnumerator Hit()
     {
         Enemy[] allEnemies = FindObjectsOfType<Enemy>();
 
         foreach (Enemy enemy in allEnemies)
         {
-            float distance = Vector2.Distance(new Vector2(transform.position.x, transform.position.y),
-                new Vector2(enemy.transform.position.x, enemy.transform.position.y));
+            float distance = Vector3.Distance(transform.position, enemy.transform.position);
 
             if (distance < 1.5f && isAttacking && !hasDamage)  
             {
-
                 enemy.isHitting = true;
+
+                yield return new WaitForSeconds(0.2f);
+
                 enemy.hearts -= 0.5f;
                 hasDamage = true;
 

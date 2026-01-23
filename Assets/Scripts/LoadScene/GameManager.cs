@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using static TriggerCollider;
@@ -37,7 +38,10 @@ public class GameManager : MonoBehaviour
     {
         exitSide = sideOfTheWorld;
         exitTrigger = triggerName;
-        SceneManager.LoadScene(nextScene);
+        if (nextScene != 10)
+            SceneManager.LoadScene(nextScene);
+        else if (EnemyManager.Instance.keysCount == 5)
+            SceneManager.LoadScene(nextScene);
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)

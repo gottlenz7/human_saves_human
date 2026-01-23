@@ -3,6 +3,7 @@ using System.Collections;
 using Move;
 using UnityEngine;
 using UnityEngine.AI;
+using static UnityEngine.EventSystems.EventTrigger;
 
 public class Enemy : MonoBehaviour
 {
@@ -24,14 +25,19 @@ public class Enemy : MonoBehaviour
     private void Update()
     {
         if (isHitting) StartCoroutine(ChangeColor());
-        if (hearts <= 0f) Destroy(gameObject);
+
+        if (hearts <= 0f)
+        {
+            EnemyManager.Instance.LoseEnemy();
+            Destroy(gameObject);
+        }
+
         StartCoroutine(Hit());
     }
 
     public IEnumerator Hit()
     {
-        float distance = Vector2.Distance(new Vector2(transform.position.x, transform.position.y), 
-            new Vector2(Player.Instance.transform.position.x, Player.Instance.transform.position.y));
+        float distance = Vector3.Distance(transform.position, Player.Instance.transform.position);
 
         if (distance < 1f && !hasDamage)
         {
