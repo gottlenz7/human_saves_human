@@ -35,7 +35,7 @@ public class EnemyManager : MonoBehaviour
 
         if (currentEnemiesCount == 0)
         {
-            applesCount += Random.Range(1, 3);
+            applesCount += Random.Range(2, 3);
             keysCount += 1;
 
             UpdateText();
@@ -52,7 +52,15 @@ public class EnemyManager : MonoBehaviour
 
     private void UpdateText()
     {
-        apples.text = "x " + applesCount;
-        keys.text = "x " + keysCount;
+        if (apples != null && keys != null)
+        {
+            apples.text = "x " + applesCount;
+            keys.text = "x " + keysCount;
+        }
+    }
+
+    public void OnDestroy()
+    {
+        Destroy(gameObject);
     }
 }

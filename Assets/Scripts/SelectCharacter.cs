@@ -1,8 +1,4 @@
-using System;
-using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 public class SelectCharacter : MonoBehaviour
 {
@@ -12,6 +8,7 @@ public class SelectCharacter : MonoBehaviour
 
     private void Start()
     {
+
         spriteOutline1 = outline1.GetComponent<SpriteRenderer>();
         spriteOutline2 = outline2.GetComponent<SpriteRenderer>();
 

@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class PlayerVisual : MonoBehaviour 
 {
     public static PlayerVisual Instance { get; private set; }
+
     public bool isMan = false, haveWeapon = false, isAttacking = false, isHitting = false;
     public float hearts = 3f;
     public Animator animator;
@@ -34,7 +35,7 @@ public class PlayerVisual : MonoBehaviour
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         originalColor = spriteRenderer.color;
-}
+    }
 
     private void Update()
     {
@@ -43,16 +44,16 @@ public class PlayerVisual : MonoBehaviour
 
         AttackAnimation();
         if (isHitting) StartCoroutine(ChangeColor());
-        StartCoroutine(Eat());
+        if (Input.GetKeyDown(KeyCode.C)) StartCoroutine(Eat());
 
-        //if (hearts <= 0f)
-        //{
-        //    Destroy(gameObject);
-        //    Item.Instance.DestroyItem();
-        //    SceneManager.LoadScene(12);
-        //}
+        if (hearts <= 0f)
+        {
+            Player.Instance.OnDestroy();
+            EnemyManager.Instance.OnDestroy();
+            Item.Instance.OnDestroy();
 
-        Debug.Log(hearts);
+            SceneManager.LoadScene(12);
+        }
     }
 
     private void AttackAnimation()
@@ -81,7 +82,7 @@ public class PlayerVisual : MonoBehaviour
 
     IEnumerator Eat()
     {
-        if (Input.GetKeyDown(KeyCode.C) && EnemyManager.Instance.applesCount > 0 && hearts < 3)
+        if (EnemyManager.Instance.applesCount > 0 && hearts < 3)
         {
             hearts += 1f;
             hearts = Mathf.Min(hearts, 3);

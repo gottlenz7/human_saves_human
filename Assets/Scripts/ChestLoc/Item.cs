@@ -33,7 +33,7 @@ public class Item : MonoBehaviour
             item.sprite = brush;
     }
 
-    public void DestroyItem()
+    public void OnDestroy()
     {
         Destroy(gameObject);
     }

@@ -49,4 +49,9 @@ public class Player : MonoBehaviour
         if (inputVector.magnitude > minSpeed)
             lastDirection = inputVector;
     }
+
+    public void OnDestroy()
+    {
+        Destroy(gameObject);
+    }
 }

@@ -241,4 +241,6 @@ MonoBehaviour:
   isMan: 0
   haveWeapon: 0
   isAttacking: 0
-  animator: {fileID: 0}
+  isHitting: 0
+  hearts: 3
+  animator: {fileID: 410357840059855210}

@@ -38,6 +38,7 @@ public class GameManager : MonoBehaviour
     {
         exitSide = sideOfTheWorld;
         exitTrigger = triggerName;
+
         if (nextScene != 10)
             SceneManager.LoadScene(nextScene);
         else if (EnemyManager.Instance.keysCount == 5)
