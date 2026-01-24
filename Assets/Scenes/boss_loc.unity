@@ -804,6 +804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Count
   enemiesCount: 1
+  music: {fileID: 8300000, guid: d1335106a6583634b839decfdd81bc2a, type: 3}
 --- !u!4 &648042624
 Transform:
   m_ObjectHideFlags: 0
@@ -1650,7 +1651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7356609614519431003, guid: 482826fb90364514cb8ad0edb9f19ead, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.01
+      value: -0.75
       objectReference: {fileID: 0}
     - target: {fileID: 7356609614519431003, guid: 482826fb90364514cb8ad0edb9f19ead, type: 3}
       propertyPath: m_LocalPosition.z

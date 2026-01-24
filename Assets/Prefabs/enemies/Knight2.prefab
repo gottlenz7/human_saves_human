@@ -134,14 +134,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6476fdadba96aea45bb4a0108fcf97e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
-  startState: 1
   hearts: 2
   damage: 1
   isHitting: 0
+  attackSound: {fileID: 8300000, guid: 1159b68b49e430d44ac0f9f775d20817, type: 3}
+  spriteRenderer: {fileID: 0}
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
+  hasDamage: 0
+  startState: 1
   currentState: 0
   isChasingEnemy: 1
   isAttackingEnemy: 1
-  hasDamage: 0
 --- !u!1 &8297895398680796185
 GameObject:
   m_ObjectHideFlags: 0

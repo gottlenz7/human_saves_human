@@ -9,6 +9,8 @@ public class Enemy : MonoBehaviour
 {
     public float hearts, damage;
     public bool isHitting;
+    public AudioClip attackSound; 
+    public AudioSource audioSource;
 
     public SpriteRenderer spriteRenderer;
     public Color originalColor;
@@ -20,6 +22,10 @@ public class Enemy : MonoBehaviour
     {
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         originalColor = spriteRenderer.color;
+
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+        audioSource.volume = 0.7f;
     }
 
     private void Update()
@@ -41,6 +47,8 @@ public class Enemy : MonoBehaviour
 
         if (distance < 1f && !hasDamage)
         {
+            audioSource.PlayOneShot(attackSound);
+
             PlayerVisual.Instance.isHitting = true;
             PlayerVisual.Instance.hearts -= damage;
             hasDamage = true;

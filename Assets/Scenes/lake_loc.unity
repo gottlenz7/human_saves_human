@@ -3119,6 +3119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Count
   enemiesCount: 3
+  music: {fileID: 8300000, guid: 682da076ea1abc34d9ef5a8c7d3dde00, type: 3}
 --- !u!1 &1260094580
 GameObject:
   m_ObjectHideFlags: 0

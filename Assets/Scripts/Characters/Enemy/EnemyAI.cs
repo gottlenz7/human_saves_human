@@ -2,6 +2,7 @@ using System;
 using Move;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 public class EnemyAI : Enemy
@@ -48,6 +49,10 @@ public class EnemyAI : Enemy
 
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         originalColor = spriteRenderer.color;
+
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+        audioSource.volume = 0.7f;
     }
 
     private void Awake()

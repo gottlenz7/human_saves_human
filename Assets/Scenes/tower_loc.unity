@@ -1025,6 +1025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Count
   enemiesCount: -1
+  music: {fileID: 8300000, guid: c584c9b7120fa9549b4581533c124fa5, type: 3}
 --- !u!4 &627241964
 Transform:
   m_ObjectHideFlags: 0

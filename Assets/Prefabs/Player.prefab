@@ -244,3 +244,5 @@ MonoBehaviour:
   isHitting: 0
   hearts: 3
   animator: {fileID: 410357840059855210}
+  attackSoundMan: {fileID: 8300000, guid: 213102ae006652d43a54b9116a8e34ed, type: 3}
+  attackSoundWoman: {fileID: 8300000, guid: 3a714cfd2f15eaa44b3b9791e824bcdd, type: 3}

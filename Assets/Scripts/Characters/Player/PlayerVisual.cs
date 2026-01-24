@@ -11,6 +11,8 @@ public class PlayerVisual : MonoBehaviour
     public bool isMan = false, haveWeapon = false, isAttacking = false, isHitting = false;
     public float hearts = 3f;
     public Animator animator;
+    public AudioClip attackSoundMan, attackSoundWoman;
+    private AudioSource audioSource;
 
     private MovableSprite movableSprite;
 
@@ -35,6 +37,10 @@ public class PlayerVisual : MonoBehaviour
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         originalColor = spriteRenderer.color;
+
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+        audioSource.volume = 0.7f;
     }
 
     private void Update()
@@ -103,6 +109,11 @@ public class PlayerVisual : MonoBehaviour
 
             if (distance < 1.5f && isAttacking && !hasDamage)  
             {
+                if (isMan)
+                    audioSource.PlayOneShot(attackSoundMan);
+                else
+                    audioSource.PlayOneShot(attackSoundWoman);
+
                 enemy.isHitting = true;
 
                 yield return new WaitForSeconds(0.2f);
