@@ -114,7 +114,8 @@ MonoBehaviour:
   hearts: 0.5
   damage: 0.5
   isHitting: 0
-  clip: {fileID: 8300000, guid: 077b17159aec04f43af741da4395f445, type: 3}
+  music:
+    clip: {fileID: 8300000, guid: 077b17159aec04f43af741da4395f445, type: 3}
   spriteRenderer: {fileID: 0}
   originalColor: {r: 0, g: 0, b: 0, a: 0}
   hasDamage: 0

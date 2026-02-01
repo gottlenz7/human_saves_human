@@ -1,17 +1,12 @@
-using System;
 using System.Collections;
-using Move;
 using UnityEngine;
-using UnityEngine.AI;
-using static UnityEngine.EventSystems.EventTrigger;
 
 public class Enemy : MonoBehaviour
 {
     public float hearts, damage;
     public bool isHitting;
-    public AudioClip clip;
 
-    private Music music;
+    [SerializeField] private Music music;
 
     public SpriteRenderer spriteRenderer;
     public Color originalColor;
@@ -24,7 +19,7 @@ public class Enemy : MonoBehaviour
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         originalColor = spriteRenderer.color;
 
-        music = new Music(gameObject, clip, 0.7f, false);
+        music.NewMusic(gameObject, 0.7f, false);
     }
 
     protected virtual void Update()

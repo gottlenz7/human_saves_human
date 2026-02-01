@@ -5,9 +5,8 @@ public class Count : MonoBehaviour
     public static Count Instance { get; private set; }
 
     public int enemiesCount;
-    public AudioClip clip;
 
-    private Music music;
+    [SerializeField] private Music music;
 
     private void Awake()
     {
@@ -16,7 +15,7 @@ public class Count : MonoBehaviour
         else
             Destroy(gameObject);
 
-        music = new Music(gameObject, clip, 0.5f, true);
+        music.NewMusic(gameObject, 0.5f, true);
     }
 
     private void Start()

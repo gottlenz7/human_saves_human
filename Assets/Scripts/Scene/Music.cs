@@ -1,10 +1,14 @@
+using System;
 using UnityEngine;
 
+[Serializable]
 public class Music
 {
-    private AudioSource audioSource;
+    public AudioClip clip;
 
-    public Music(GameObject gameObject, AudioClip clip, float volume, bool loop)
+    private AudioSource audioSource;
+    
+    public void NewMusic(GameObject gameObject, float volume, bool loop)
     {
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = clip;

@@ -2,8 +2,6 @@ using System;
 using Move;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.Audio;
-using UnityEngine.SceneManagement;
 
 public class EnemyAI : Enemy
 {
