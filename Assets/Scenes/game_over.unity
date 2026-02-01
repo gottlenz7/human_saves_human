@@ -149,6 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Count
   enemiesCount: -1
+  clip: {fileID: 0}
 --- !u!4 &278032145
 Transform:
   m_ObjectHideFlags: 0
@@ -988,11 +989,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7168537703367322282, guid: fac55d8ad2a308b4ba6fb089a63c2b46, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.19229
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7168537703367322282, guid: fac55d8ad2a308b4ba6fb089a63c2b46, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.23357
+      value: -3.19
       objectReference: {fileID: 0}
     - target: {fileID: 7168537703367322282, guid: fac55d8ad2a308b4ba6fb089a63c2b46, type: 3}
       propertyPath: m_LocalPosition.z

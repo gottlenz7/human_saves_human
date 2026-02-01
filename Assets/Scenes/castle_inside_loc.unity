@@ -1350,7 +1350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Count
   enemiesCount: 10
-  music: {fileID: 8300000, guid: 0706260dc48239c4a86a63613bcbeefe, type: 3}
+  clip: {fileID: 8300000, guid: 0706260dc48239c4a86a63613bcbeefe, type: 3}
 --- !u!4 &1016754737
 Transform:
   m_ObjectHideFlags: 0

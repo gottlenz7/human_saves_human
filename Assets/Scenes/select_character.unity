@@ -1127,7 +1127,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7168537703367322282, guid: fac55d8ad2a308b4ba6fb089a63c2b46, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.24
+      value: -3.19
       objectReference: {fileID: 0}
     - target: {fileID: 7168537703367322282, guid: fac55d8ad2a308b4ba6fb089a63c2b46, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1370,7 +1370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Count
   enemiesCount: -1
-  music: {fileID: 8300000, guid: 2d627b24b34b02e4d8bee883195e0621, type: 3}
+  clip: {fileID: 8300000, guid: 2d627b24b34b02e4d8bee883195e0621, type: 3}
 --- !u!4 &1273188035
 Transform:
   m_ObjectHideFlags: 0

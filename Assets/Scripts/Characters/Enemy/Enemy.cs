@@ -9,26 +9,25 @@ public class Enemy : MonoBehaviour
 {
     public float hearts, damage;
     public bool isHitting;
-    public AudioClip attackSound; 
-    public AudioSource audioSource;
+    public AudioClip clip;
+
+    private Music music;
 
     public SpriteRenderer spriteRenderer;
     public Color originalColor;
 
     public bool hasDamage;
-  
 
-    private void Start()
+
+    protected virtual void Start()
     {
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         originalColor = spriteRenderer.color;
 
-        audioSource = gameObject.AddComponent<AudioSource>();
-        audioSource.playOnAwake = false;
-        audioSource.volume = 0.7f;
+        music = new Music(gameObject, clip, 0.7f, false);
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         if (isHitting) StartCoroutine(ChangeColor());
 
@@ -46,8 +45,8 @@ public class Enemy : MonoBehaviour
         float distance = Vector3.Distance(transform.position, Player.Instance.transform.position);
 
         if (distance < 1f && !hasDamage)
-        {
-            audioSource.PlayOneShot(attackSound);
+        {   
+            music.Play();
 
             PlayerVisual.Instance.isHitting = true;
             PlayerVisual.Instance.hearts -= damage;

@@ -137,7 +137,7 @@ MonoBehaviour:
   hearts: 0.5
   damage: 0.5
   isHitting: 0
-  attackSound: {fileID: 8300000, guid: d994b91200600124db4402580a363441, type: 3}
+  clip: {fileID: 8300000, guid: d994b91200600124db4402580a363441, type: 3}
   spriteRenderer: {fileID: 0}
   originalColor: {r: 0, g: 0, b: 0, a: 0}
   hasDamage: 0

@@ -33,26 +33,12 @@ public class EnemyAI : Enemy
 
     public bool IsRunning => navMeshAgent.velocity != Vector3.zero;
 
-
     public enum State
     {
         Idle,
         Roaming,
         Chasing,
         Attacking
-    }
-
-    private void Start()
-    {
-        animator = GetComponentInChildren<Animator>();
-        movableSprite = new MovableSprite();
-
-        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        originalColor = spriteRenderer.color;
-
-        audioSource = gameObject.AddComponent<AudioSource>();
-        audioSource.playOnAwake = false;
-        audioSource.volume = 0.7f;
     }
 
     private void Awake()
@@ -64,18 +50,20 @@ public class EnemyAI : Enemy
         currentState = startState;
     }
 
-    private void Update()
+    protected override void Start()
     {
+        base.Start();
+
+        animator = GetComponentInChildren<Animator>();
+        movableSprite = new MovableSprite();
+    }
+
+    protected override void Update()
+    {
+        base.Update();
+
         StateHandler();
         MovementDirectionHandler();
-
-        if (isHitting) StartCoroutine(ChangeColor());
-        if (hearts <= 0f)
-        {
-            EnemyManager.Instance.LoseEnemy();
-            Destroy(gameObject);
-        }
-        StartCoroutine(Hit());
     }
 
     private void StateHandler()

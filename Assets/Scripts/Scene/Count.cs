@@ -5,8 +5,9 @@ public class Count : MonoBehaviour
     public static Count Instance { get; private set; }
 
     public int enemiesCount;
-    public AudioClip music;
-    private AudioSource audioSource;
+    public AudioClip clip;
+
+    private Music music;
 
     private void Awake()
     {
@@ -14,25 +15,18 @@ public class Count : MonoBehaviour
             Instance = this;
         else
             Destroy(gameObject);
+
+        music = new Music(gameObject, clip, 0.5f, true);
     }
 
-    void Start()
+    private void Start()
     {
-        audioSource = gameObject.AddComponent<AudioSource>();
-
-        audioSource.clip = music;
-        audioSource.loop = true;
-        audioSource.playOnAwake = true;
-        audioSource.volume = 0.5f;
-
-        audioSource.Play();
+        music.Play();
     }
 
     private void OnDestroy()
     {
         if (Instance == this)
-        {
             Instance = null;
-        }
     }
 }
