@@ -15,7 +15,7 @@ public class Count : MonoBehaviour
         else
             Destroy(gameObject);
 
-        music.NewMusic(gameObject, 0.5f, true);
+        music.SetMusic(gameObject, 0.5f, true);
     }
 
     private void Start()

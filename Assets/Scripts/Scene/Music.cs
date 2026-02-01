@@ -8,7 +8,7 @@ public class Music
 
     private AudioSource audioSource;
     
-    public void NewMusic(GameObject gameObject, float volume, bool loop)
+    public void SetMusic(GameObject gameObject, float volume, bool loop)
     {
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = clip;

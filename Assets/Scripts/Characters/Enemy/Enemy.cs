@@ -19,7 +19,7 @@ public class Enemy : MonoBehaviour
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         originalColor = spriteRenderer.color;
 
-        music.NewMusic(gameObject, 0.7f, false);
+        music.SetMusic(gameObject, 0.7f, false);
     }
 
     protected virtual void Update()
