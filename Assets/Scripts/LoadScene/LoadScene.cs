@@ -9,6 +9,7 @@ public class LoadScene : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Z))
             LoadScenes();
+
     }
 
     private void LoadScenes()

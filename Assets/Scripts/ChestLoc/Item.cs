@@ -32,4 +32,9 @@ public class Item : MonoBehaviour
         else
             item.sprite = brush;
     }
+
+    public void OnDestroy()
+    {
+        Destroy(gameObject);
+    }
 }

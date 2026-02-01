@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 
 public class Player : MonoBehaviour
 {
@@ -47,5 +48,10 @@ public class Player : MonoBehaviour
 
         if (inputVector.magnitude > minSpeed)
             lastDirection = inputVector;
+    }
+
+    public void OnDestroy()
+    {
+        Destroy(gameObject);
     }
 }
